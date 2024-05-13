@@ -4,6 +4,7 @@
 #ifdef ARDUINO_INKPLATE5
 
 #include <Arduino.h>
+#include "../../selectableFeatures/featureBoardList.h"
 
 class boardDriver
 {
@@ -12,8 +13,8 @@ class boardDriver
         void initBoard();
 
     private:
-        //Feature1 Ft1;
-        //Feature2 Ft2;
+        Feature1 Ft1;
+        Feature2 Ft2;
 };
 
 #endif

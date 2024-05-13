@@ -9,8 +9,8 @@ boardDriver::boardDriver()
 
 void boardDriver::initBoard()
 {
-    // initFeature1();
-    //Feature2::initFeature2();
+    Ft1.initFeature1();
+    Ft2.initFeature2();
 }
 
 #endif

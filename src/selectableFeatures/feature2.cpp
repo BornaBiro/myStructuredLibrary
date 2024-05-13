@@ -1,15 +1,15 @@
-// #ifdef __USE_FEATURE_2__
+#include "feature2.h"
 
-// #include "feature2.h"
+#ifdef LIBRARY_FEATURE_2_ENABLED
 
-// Feature2::Feature2()
-// {
+#warning "Feature2 detected - Source file"
 
-// }
+Feature2::Feature2()
+{
+}
 
-// void Feature2::initFeature2()
-// {
-    
-// }
+void Feature2::initFeature2()
+{
+}
 
-// #endif
+#endif

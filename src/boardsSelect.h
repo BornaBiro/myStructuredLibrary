@@ -1,3 +1,4 @@
+#pragma once
 #ifndef __MY_TEST_LIBRARY_BOARD_SELECT_H__
 #define __MY_TEST_LIBRARY_BOARD_SELECT_H__
 

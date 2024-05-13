@@ -4,6 +4,7 @@
 #include <Arduino.h>
 
 #include "boardsSelect.h"
+#include "selectableFeatures/featureBoardList.h"
 
 class MyTestLibrary : public MyArduinoLibraryBoardSelect
 {
